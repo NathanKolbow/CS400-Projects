@@ -1,0 +1,28 @@
+------------------------------------------------------------------------------------------------
+|            FileName|      Operation| Data Structure|Time Taken (nano seconds)|     Bytes Used|
+------------------------------------------------------------------------------------------------
+|    IntegerLarge.txt|            PUT|        HASHMAP|               3885240264|      361819920|
+|    IntegerLarge.txt|            PUT|        TREEMAP|              17947388401|      254560648|
+|    IntegerLarge.txt|            GET|        HASHMAP|               1649863795|              0|
+|    IntegerLarge.txt|            GET|        TREEMAP|              14986490725|              0|
+|    IntegerLarge.txt|         REMOVE|        HASHMAP|                537601698|              0|
+|    IntegerLarge.txt|         REMOVE|        TREEMAP|              15039438186|              0|
+|    IntegerSmall.txt|            PUT|        HASHMAP|                     5105|              0|
+|    IntegerSmall.txt|            PUT|        TREEMAP|                    11670|              0|
+|    IntegerSmall.txt|            GET|        HASHMAP|                     4741|              0|
+|    IntegerSmall.txt|            GET|        TREEMAP|                    32456|              0|
+|    IntegerSmall.txt|         REMOVE|        HASHMAP|                     1094|              0|
+|    IntegerSmall.txt|         REMOVE|        TREEMAP|                    10576|              0|
+|     StringLarge.txt|            PUT|        HASHMAP|                 52689638|       13878456|
+|     StringLarge.txt|            PUT|        TREEMAP|                118274080|       23130800|
+|     StringLarge.txt|            GET|        HASHMAP|                 31778980|              0|
+|     StringLarge.txt|            GET|        TREEMAP|                 66146401|              0|
+|     StringLarge.txt|         REMOVE|        HASHMAP|                  9536173|              0|
+|     StringLarge.txt|         REMOVE|        TREEMAP|                 53659666|              0|
+|     StringSmall.txt|            PUT|        HASHMAP|                     5105|              0|
+|     StringSmall.txt|            PUT|        TREEMAP|                    10576|              0|
+|     StringSmall.txt|            GET|        HASHMAP|                     4011|              0|
+|     StringSmall.txt|            GET|        TREEMAP|                     6929|              0|
+|     StringSmall.txt|         REMOVE|        HASHMAP|                     1823|              0|
+|     StringSmall.txt|         REMOVE|        TREEMAP|                     9481|              0|
+------------------------------------------------------------------------------------------------

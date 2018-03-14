@@ -1,0 +1,30 @@
+### insert() and remove() Test Set ###
+insertAndRemove_test1 passed, correctly removed and returned 1
+insertAndRemove_test2 passed, threw an EmptyQueueException when remove was called on an empty PQ
+insertAndRemove_test3 passed, correctly removed and returned 500 out of 10 entries
+insertAndRemove_test4 passed, threw an EmptyQueueException when remove was called on a new PQ
+
+### getMax() Test Set ###
+getMax_test1 passed, threw an EmptyQueueException when called on a new PQ
+getMax_test2 passed, correctly returned 10000
+getMax_test3 passed, correctly returned 0
+
+### size() Test Set ###
+size_test1 passed, a size of 0 was correctly returned after initializing a new PQ
+size_test2 passed, a size of 1 was correctly returned when only 1 value was in the PQ
+size_test3 passed, a size of 0 was correctly returned after clearing the PQ
+size_test4 passed, a size of 505 was expected and returned
+
+### isEmpty() Test Set ###
+isEmpty_test1 passed, returned true after initialization
+isEmpty_test2 passed, return true after removing 10,000/10,000 values
+isEmpty_test3 passed, returned false when 1 value was in the PQ
+isEmpty_test4 passed, returned false when 1001 values were in the PQ
+
+### Big Data Test Set ###
+bigData_test1 passed, the PQ successfully expanded to include 100 data points
+bigData_test2 passed, the PQ successfully expanded to include 1,000,000 data points
+
+### Duplicate Data Test Set ###
+dupEntry_test1 passed, all values were and were expected to return in the following order: [3, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
+dupEntry_test2 passed, 1,000,000 duplicate values were properly inserted and removed
