@@ -1,6 +1,9 @@
 import java.lang.reflect.Array;
+import java.util.AbstractMap.SimpleEntry;
 
-public class DirectedWeightedGraph<K> {
+import pq.MinPQ;
+
+public class DirectedWeightedGraph<K extends Comparable<K>> {
 	
 	// object used to create instances of generic arrays
 	private GraphNode<K> cast = new GraphNode<K>(null, -1);
