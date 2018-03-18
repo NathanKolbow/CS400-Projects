@@ -1,6 +1,5 @@
 import java.lang.reflect.Array;
 import java.util.AbstractMap.SimpleEntry;
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class DirectedWeightedGraph<K extends Comparable<K>> {
@@ -136,7 +135,7 @@ public class DirectedWeightedGraph<K extends Comparable<K>> {
 		vertices = vTemp;
 	}
 	
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "unlikely-arg-type" })
 	public K[] shortestPath(K start, K end) {
 		PriorityQueue<SimpleEntry<KeyValuePair<GraphNode<K>>, Integer>> pq = new PriorityQueue<SimpleEntry<KeyValuePair<GraphNode<K>>, Integer>>();
 		KeyValuePair<GraphNode<K>> cast = new KeyValuePair<GraphNode<K>>(null, null);
