@@ -11,7 +11,7 @@ public class DirectedWeightedGraph<K extends Comparable<K>> {
 	private int count = 0;
 	// adjacency matrix; am[source][destination]
 	private int[][] am;
-
+	
 	public DirectedWeightedGraph() {
 		this(10);
 	}
